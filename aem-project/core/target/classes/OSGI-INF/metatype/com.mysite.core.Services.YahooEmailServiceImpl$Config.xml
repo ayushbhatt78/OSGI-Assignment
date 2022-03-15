@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.2.0" localization="OSGI-INF/l10n/com.mysite.core.Services.YahooEmailServiceImpl$Config">
+  <OCD id="com.mysite.core.Services.YahooEmailServiceImpl$Config" name="Yahoo Email Service Config" description="Yahoo Email Service Configuration">
+    <AD id="disable" type="Boolean" name="Disable" description="If TRUE then no email would be sent" default="false"/>
+    <AD id="path" type="String" name="Url of Google Email Service" description="Url of Google Email Service" default="/test"/>
+  </OCD>
+  <Designate pid="com.mysite.core.Services.YahooEmailServiceImpl">
+    <Object ocdref="com.mysite.core.Services.YahooEmailServiceImpl$Config"/>
+  </Designate>
+</metatype:MetaData>

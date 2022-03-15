@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Aem project - All</comment>
+<entry key="allowIndexDefinitions">false</entry>
+<entry key="created">2022-03-12T20:29:26.552Z</entry>
+<entry key="groupId">com.adobe.aem</entry>
+<entry key="name">aem-project.all</entry>
+<entry key="description">All content package for Aem project</entry>
+<entry key="artifactId">aem-project.all</entry>
+<entry key="version">0.0.1-SNAPSHOT</entry>
+<entry key="packageType">container</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">com.adobe.aem</entry>
+</properties>

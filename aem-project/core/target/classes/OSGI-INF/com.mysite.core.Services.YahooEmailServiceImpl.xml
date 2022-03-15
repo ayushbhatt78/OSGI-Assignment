@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.3.0" name="com.mysite.core.Services.YahooEmailServiceImpl" activate="activate" modified="activate">
+  <property name="disable" type="Boolean" value="false"/>
+  <property name="path" type="String" value="/test"/>
+  <service>
+    <provide interface="com.mysite.core.Inter1.EmailService1"/>
+  </service>
+  <implementation class="com.mysite.core.Services.YahooEmailServiceImpl"/>
+</scr:component>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.3.0" name="com.mysite.core.serve3.ConfigServe">
+  <property name="sling.servlet.methods" type="String" value="GET"/>
+  <property name="sling.servlet.resourceTypes" type="String" value="sling/servlet/default"/>
+  <property name="sling.servlet.selectors" type="String" value="ayush"/>
+  <property name="sling.servlet.extensions" type="String" value="html"/>
+  <property name="service.vendor" type="String" value="Name"/>
+  <property name="service.description" type="String" value="Email Servlet"/>
+  <service>
+    <provide interface="javax.servlet.Servlet"/>
+  </service>
+  <reference name="service" interface="com.mysite.core.serve1.Service" field="service"/>
+  <implementation class="com.mysite.core.serve3.ConfigServe"/>
+</scr:component>

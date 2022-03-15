@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.3.0" name="com.mysite.core.firstServlet.Serve1">
+  <property name="sling.servlet.paths" type="String">/bin/training/configtest</property>
+  <property name="sling.servlet.methods" type="String" value="GET"/>
+  <property name="sling.servlet.resourceTypes" type="String" value="sling/servlet/default"/>
+  <property name="sling.servlet.selectors" type="String" value="ayush"/>
+  <property name="sling.servlet.extensions" type="String" value="json"/>
+  <property name="service.vendor" type="String" value="Name"/>
+  <property name="service.description" type="String" value=" This is my first Servlet"/>
+  <service>
+    <provide interface="javax.servlet.Servlet"/>
+  </service>
+  <implementation class="com.mysite.core.firstServlet.Serve1"/>
+</scr:component>

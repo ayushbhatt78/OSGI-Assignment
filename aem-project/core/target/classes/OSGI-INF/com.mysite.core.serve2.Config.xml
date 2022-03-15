@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.3.0" name="com.mysite.core.serve2.Config" activate="active" modified="active">
+  <property name="isAuthor" type="Boolean" value="true"/>
+  <service>
+    <provide interface="com.mysite.core.serve1.Service"/>
+  </service>
+  <implementation class="com.mysite.core.serve2.Config"/>
+</scr:component>
